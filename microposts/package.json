@@ -9,6 +9,15 @@
         "prod": "npm run production",
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
+    "require": {
+        "php": ">=7.0.0",
+        "fideloper/proxy": "~3.3",
+        "laravel/framework": "5.5.*",
+        "laravel/tinker": "~1.0",
+        "laravelcollective/html": "5.5.*",
+        "thomaswelton/laravel-gravatar": "~1.0"
+},
+    
     "devDependencies": {
         "axios": "^0.17",
         "bootstrap-sass": "^3.3.7",
@@ -19,3 +28,4 @@
         "vue": "^2.5.7"
     }
 }
+
